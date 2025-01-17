@@ -1,32 +1,57 @@
-# mijuego3
+# Cambio de assets en MiJuego
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+Un [libGDX](https://libgdx.com/) proyect generado con [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
 
-A sample project implementing a 2D platformer. Includes launchers for each platform and a small but playable game.
+Un Simple prroyecto implementando una plataforma 2D. Incluye lanzadores para cada plataforma y un juego pequeño pero jugable.
 
-## Platforms
+---
+## Integrantes
+- [Eduardo Caza](https://github.com/Eduardo-Caza) 
+- [Mateo Garzon](https://github.com/WesitosFsa)  
+---
+## Platformas
 
-- `core`: Main module with the application logic shared by all platforms.
-- `android`: Android mobile platform. Needs Android SDK.
+- `core`: Módulo principal con la lógica de la aplicación compartida por todas las plataformas.
+- `android`: Plataforma móvil Android. Requiere SDK de Android.
 
-## Gradle
+---
+Esta aplicación es un pequeño juego similar a mario bros pero con estilos cambiados como el personaje y el fondo.  
+---
+## Funcionalidades
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+- Fisicas reales:
+  - Romper Bloques
+  - Bloqueo por bloques
+  - Romper Bloques
+  - Gravedad
+- Movimiento del personaje
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `android:lint`: performs Android project validation.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `test`: runs unit tests (if any).
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+
+
+
+## Capturas de Pantalla
+
+
+1. **Ejemplos de Juego*  
+![image](https://github.com/user-attachments/assets/8e27234c-d2c8-4cab-bf37-8b7c32fc475a)
+
+![image](https://github.com/user-attachments/assets/3b66ba22-56c7-4f7e-acd4-b760675416c1)
+
+![image](https://github.com/user-attachments/assets/78ed3033-77aa-4516-a9df-a1af047fca4f)
+
+---
+
+## Clonación del Repositorio
+
+Para obtener el código fuente de la aplicación, sigue estos pasos:
+
+1. Clona el repositorio ejecutando el siguiente comando en tu terminal:  
+
+   ```bash
+   git clone https://github.com/WesitosFsa/VideojuegoPix
+2. Importa el proyecto en Android Studio:
+
+Abre Android Studio.
+Haz clic en File > Open y selecciona la carpeta del proyecto.
+
